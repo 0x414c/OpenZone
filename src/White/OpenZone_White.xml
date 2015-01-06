@@ -1,0 +1,268 @@
+<theme name="OpenZone_White">
+  <source size="32" gridsize="32" margin="2" spacing="4">
+    <image file="hotspots.png" use="hotspot"/>
+    <image file="0.png" use="0"/>
+    <image file="1.png" use="1"/>
+    <image file="2.png" use="2"/>
+    <image file="3.png" use="3"/>
+    <image file="4.png" use="4"/>
+    <image file="5.png" use="5"/>
+    <image file="6.png" use="6"/>
+    <image file="7.png" use="7"/>
+    <image file="8.png" use="8"/>
+    <image file="9.png" use="9"/>
+    <image file="10.png" use="10"/>
+    <image file="11.png" use="11"/>
+    <image file="12.png" use="12"/>
+    <image file="13.png" use="13"/>
+    <image file="14.png" use="14"/>
+    <image file="15.png" use="15"/>
+    <image file="16.png" use="16"/>
+    <image file="17.png" use="17"/>
+    <image file="18.png" use="18"/>
+    <image file="19.png" use="19"/>
+    <image file="20.png" use="20"/>
+    <image file="21.png" use="21"/>
+    <image file="22.png" use="22"/>
+    <image file="23.png" use="23"/>
+    <image file="24.png" use="24"/>
+    <image file="25.png" use="25"/>
+    <image file="26.png" use="26"/>
+    <image file="27.png" use="27"/>
+  </source>
+
+  <layout>
+    <row>
+      <cursor name="left_ptr"/>
+      <cursor name="whats_this"/>
+      <cursor name="copy"/>
+      <cursor name="move"/>
+      <cursor name="link"/>
+      <cursor name="forbidden"/>
+      <cursor name="left_ptr_watch">
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+      </cursor>
+      <cursor name="wait">
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+        <frame delay="50"/>
+      </cursor>
+    </row>
+    <row>
+      <cursor name="right_ptr"/>
+      <cursor name="pointing_hand"/>
+      <cursor name="openhand"/>
+      <cursor name="closedhand"/>
+      <cursor name="ibeam"/>
+      <cursor name="vertical-text"/>
+      <cursor name="cross"/>
+      <cursor name="size_all"/>
+    </row>
+    <row>
+      <cursor name="size_hor"/>
+      <cursor name="size_ver"/>
+      <cursor name="size_fdiag"/>
+      <cursor name="size_bdiag"/>
+      <cursor name="up_arrow"/>
+      <cursor name="down_arrow"/>
+      <cursor name="right_arrow"/>
+      <cursor name="left_arrow"/>
+    </row>
+    <row>
+      <cursor name="pencil"/>
+      <cursor name="color-picker"/>
+      <cursor name="zoom-in"/>
+      <cursor name="zoom-out"/>
+      <cursor name="cell"/>
+      <cursor name="dot"/>
+      <cursor name="dotbox"/>
+      <cursor name="X_cursor"/>
+    </row>
+    <row>
+      <cursor name="pirate"/>
+    </row>
+  </layout>
+
+  <!-- complete to full Qt specification -->
+  <alias name="split_h" target="size_hor"/>
+  <alias name="split_v" target="size_ver"/>
+
+  <!-- complete to full freedesktop.org specification -->
+  <alias name="default" target="left_ptr"/>
+  <alias name="text" target="ibeam"/>
+  <alias name="pointer" target="pointing_hand"/>
+  <alias name="help" target="whats_this"/>
+  <alias name="progress" target="left_ptr_watch"/>
+  <alias name="alias" target="link"/>
+  <alias name="no-drop" target="forbidden"/>
+  <alias name="not-allowed" target="forbidden"/>
+  <alias name="all-scroll" target="size_all"/>
+  <alias name="row-resize" target="size_hor"/>
+  <alias name="col-resize" target="size_ver"/>
+  <alias name="e-resize" target="size_hor"/>
+  <alias name="ne-resize" target="size_bdiag"/>
+  <alias name="nw-resize" target="size_fdiag"/>
+  <alias name="n-resize" target="size_ver"/>
+  <alias name="se-resize" target="size_fdiag"/>
+  <alias name="sw-resize" target="size_bdiag"/>
+  <alias name="s-resize" target="size_ver"/>
+  <alias name="w-resize" target="size_hor"/>
+  <alias name="crosshair" target="cross"/>
+  <alias name="ew-resize" target="size_hor"/>
+  <alias name="ns-resize" target="size_ver"/>
+  <alias name="nesw-resize" target="size_bdiag"/>
+  <alias name="nwse-resize" target="size_fdiag"/>
+
+  <!-- add some standard X11 names -->
+  <alias name="arrow" target="right_ptr"/>
+  <alias name="based_arrow_down" target="size_ver"/>
+  <alias name="based_arrow_up" target="size_ver"/>
+  <alias name="bottom_left_corner" target="size_bdiag"/>
+  <alias name="bottom_right_corner" target="size_fdiag"/>
+  <alias name="bottom_side" target="size_ver"/>
+  <alias name="bottom_tee" target="size_ver"/>
+  <alias name="center_ptr" target="up_arrow"/>
+  <alias name="circle" target="forbidden"/>
+  <alias name="cross_reverse" target="crosshair"/>
+  <alias name="diamond_cross" target="crosshair"/>
+  <alias name="double_arrow" target="size_ver"/>
+  <alias name="draft_large" target="right_ptr"/>
+  <alias name="draft_small" target="right_ptr"/>
+  <alias name="draped_box" target="dotbox"/>
+  <alias name="fleur" target="size_all"/>
+  <alias name="hand1" target="pointing_hand"/>
+  <alias name="hand2" target="pointing_hand"/>
+  <alias name="icon" target="dotbox"/>
+  <alias name="left_side" target="size_hor"/>
+  <alias name="left_tee" target="size_hor"/>
+  <alias name="ll_angle" target="size_bdiag"/>
+  <alias name="lr_angle" target="size_fdiag"/>
+  <alias name="plus" target="cell"/>
+  <alias name="question_arrow" target="whats_this"/>
+  <alias name="right_side" target="size_hor"/>
+  <alias name="right_tee" target="size_hor"/>
+  <alias name="sb_down_arrow" target="down_arrow"/>
+  <alias name="sb_h_double_arrow" target="size_hor"/>
+  <alias name="sb_left_arrow" target="left_arrow"/>
+  <alias name="sb_right_arrow" target="right_arrow"/>
+  <alias name="sb_up_arrow" target="up_arrow"/>
+  <alias name="sb_v_double_arrow" target="size_ver"/>
+  <alias name="sizing" target="size_all"/>
+  <alias name="target" target="dotbox"/>
+  <alias name="tcross" target="cross"/>
+  <alias name="top_left_arrow" target="left_ptr"/>
+  <alias name="top_left_corner" target="size_fdiag"/>
+  <alias name="top_right_corner" target="size_bdiag"/>
+  <alias name="top_side" target="size_ver"/>
+  <alias name="top_tee" target="size_ver"/>
+  <alias name="ul_angle" target="size_fdiag"/>
+  <alias name="ur_angle" target="size_bdiag"/>
+  <alias name="watch" target="wait"/>
+  <alias name="xterm" target="ibeam"/>
+
+  <!-- GTK+ dnd-* cursors -->
+  <alias name="dnd-ask" target="whats_this"/>
+  <alias name="dnd-copy" target="copy"/>
+  <alias name="dnd-move" target="move"/>
+  <alias name="dnd-link" target="link"/>
+  <alias name="dnd-no-drop" target="forbidden"/>
+  <alias name="dnd-none" target="forbidden"/>
+
+  <alias name="1081e37283d90000800003c07f3ef6bf" target="copy"/>
+  <alias name="9081237383d90e509aa00f00170e968f" target="move"/>
+  <alias name="3085a0e285430894940527032f8b26df" target="link"/>
+  <alias name="1001208387f90000800003000700f6ff" target="forbidden"/>
+
+  <!-- Mozilla -->
+  <alias name="08ffe1e65f80fcfdf9fff11263e74c48" target="left_ptr"/>
+  <alias name="5c6cd98b3f3ebcb1f9c7f1c204630408" target="whats_this"/>
+  <alias name="08ffe1cb5fe6fc01f906f1c063814ccf" target="copy"/>
+  <alias name="0876e1c15ff2fc01f906f1c363074c0f" target="link"/>
+  <alias name="08e8e1c95fe2fc01f976f1e063a24ccd" target="left_ptr_watch"/>
+  <alias name="5aca4d189052212118709018842178c0" target="openhand"/>
+  <alias name="208530c400c041818281048008011002" target="closedhand"/>
+  <alias name="f41c0e382c94c0958e07017e42b00462" target="zoom-in"/>
+  <alias name="f41c0e382c97c0938e07017e42800402" target="zoom-out"/>
+
+  <!-- Chromium -->
+  <alias name="grab" target="openhand"/>
+  <alias name="grabbing" target="closedhand"/>
+
+  <!-- from Adwaita theme -->
+  <alias name="crossed_circle" target="forbidden"/>
+
+  <alias name="d9ce0ab605698f320427677b458ad60b" target="whats_this"/>
+  <alias name="6407b0e94181790501fd1e167b474872" target="copy"/>
+  <alias name="4498f0e0c1937ffe01fd06f973665830" target="move"/>
+  <alias name="640fb0e74195791501fd1ed57b41487f" target="link"/>
+  <alias name="03b6e0fcb3499374a867c041f52298f0" target="forbidden"/>
+  <alias name="3ecb610c1bf2410f44200f48c40d3599" target="left_ptr_watch"/>
+  <alias name="9d800788f1b08800ae810202380a0822" target="pointing_hand"/>
+  <alias name="e29285e634086352946a0e7090d73106" target="pointing_hand"/>
+  <alias name="028006030e0e7ebffc7f7070c0600140" target="size_hor"/>
+  <alias name="14fef782d02440884392942c11205230" target="size_hor"/>
+  <alias name="00008160000006810000408080010102" target="size_ver"/>
+  <alias name="2870a09082c103050810ffdffffe0204" target="size_ver"/>
+  <alias name="c7088f0f3e6c8088236ef8e1e3e70000" target="size_fdiag"/>
+  <alias name="fcf1c3c7cd4491d801f1e1c78f100000" target="size_fdiag"/>
+
+  <!-- from Oxygen theme -->
+  <alias name="half-busy" target="left_ptr_watch"/>
+
+  <alias name="b66166c04f8c3109214a4fbd64a50fc8" target="copy"/>
+  <alias name="a2a266d0498c3104214a47bd64ab0fc8" target="link"/>
+  <alias name="00000000000000020006000e7e9ffc3f" target="left_ptr_watch"/>
+  <alias name="fcf21c00b30f7e3f83fe0dfd12e71cff" target="closedhand"/>
+</theme>
